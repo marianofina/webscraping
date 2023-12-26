@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class SQLConnection {
-    private final String jdbcUrl = "";
-    private final String user = "";
-    private final String password = "";
+    private final String jdbcUrl = "jdbc:sqlserver://localhost\\eme:58401;database=linkedin_db";
+    private final String user = "marianofina";
+    private final String password = "4341";
     private static SQLConnection instance;
     private SQLConnection () {}
     public static SQLConnection getInstance() {
